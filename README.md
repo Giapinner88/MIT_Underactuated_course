@@ -87,7 +87,7 @@ jupyter notebook
 
 Sử dụng Visual Studio Code mang lại trải nghiệm tích hợp tốt nhất khi bạn có thể vừa viết code, gỡ lỗi toán học và xem mô phỏng trên cùng một giao diện.
 
-Cách 1: Trải nghiệm "Plug-and-Play" với Dev Containers (Tốt nhất)
+**Cách 1**: Trải nghiệm "Plug-and-Play" với Dev Containers (Tốt nhất)
 
 1. Cài đặt tiện ích mở rộng Dev Containers (ID: ms-vscode-remote.remote-containers) trong VS Code.
 
@@ -97,7 +97,7 @@ Cách 1: Trải nghiệm "Plug-and-Play" với Dev Containers (Tốt nhất)
 
 4.VS Code sẽ tự động xây dựng môi trường, cài đặt thư viện và mở workspace. Bạn có thể chạy trực tiếp bất kỳ tệp .ipynb nào.
 
-Cách 2: Chạy với môi trường ảo cục bộ (Local Venv)
+**Cách 2**: Chạy với môi trường ảo cục bộ (Local Venv)
 
 1. Đảm bảo bạn đã cài đặt môi trường ảo ở thư mục gốc (pip install -r requirements.txt).
 
@@ -107,11 +107,11 @@ Cách 2: Chạy với môi trường ảo cục bộ (Local Venv)
 
 * 📺 Mẹo xem mô phỏng 3D (Meshcat) ngay trong VS Code: Hệ thống mô phỏng Drake sử dụng Meshcat (thường chạy ở cổng 7000). Để xem mô phỏng mà không cần mở trình duyệt web:
 
-1. Chạy khối lệnh khởi tạo Meshcat trong notebook.
+    1. Chạy khối lệnh khởi tạo Meshcat trong notebook.
 
-2. Nhấn Ctrl+Shift+P, gõ lệnh: Simple Browser: Show.
+    2. Nhấn Ctrl+Shift+P, gõ lệnh: Simple Browser: Show.
 
-3. Dán http://localhost:7000 vào thanh địa chỉ. Màn hình VS Code sẽ chia đôi: một bên là mã nguồn, một bên là đồ họa 3D.
+    3. Dán http://localhost:7000 vào thanh địa chỉ. Màn hình VS Code sẽ chia đôi: một bên là mã nguồn, một bên là đồ họa 3D.
 
 ---
 
