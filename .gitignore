@@ -1,0 +1,52 @@
+# ==========================================
+# 🐍 Môi trường ảo (Virtual Environments)
+# ==========================================
+# Cực kỳ quan trọng: Ngăn chặn commit toàn bộ mã nguồn của Drake và thư viện
+drake_env/
+venv/
+env/
+.venv/
+.env
+
+# ==========================================
+# ⚙️ Python Cache & Biến dịch
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# 📓 Jupyter Notebook & Deepnote
+# ==========================================
+# Bỏ qua các bản lưu nháp tạm thời của Jupyter
+.ipynb_checkpoints/
+# (Tùy chọn) Bỏ qua metadata của nền tảng Deepnote nếu bạn không muốn đồng bộ
+# .deepnote/ 
+
+# ==========================================
+# 🐳 Docker (Tùy chọn cấu hình cục bộ)
+# ==========================================
+docker-compose.override.yml
+
+# ==========================================
+# 💻 Tệp hệ điều hành (OS Artifacts)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# 🛠 IDE & Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -43,7 +43,7 @@ Việc sử dụng Docker giúp loại bỏ hoàn toàn các lỗi xung đột t
 
 1. Clone repository về máy tính:
 ```bash
-git clone [https://github.com/your-username/mit_underactuated_course.git](https://github.com/your-username/mit_underactuated_course.git)
+git clone [https://github.com/Giapinner88/mit_underactuated_course.git](https://github.com/Giapinner88/mit_underactuated_course.git)
 
 cd mit_underactuated_course
 ```
