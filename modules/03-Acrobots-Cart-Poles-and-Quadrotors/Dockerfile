@@ -1,1 +1,0 @@
-FROM russtedrake/underactuated:8910304

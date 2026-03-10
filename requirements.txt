@@ -1,0 +1,17 @@
+# --- Core Simulation & Robotics ---
+drake>=1.26.0
+underactuated>=1.0.0  # Thư viện đặc thù của khóa MIT 6.8210
+manipulation          # (Tùy chọn) Hỗ trợ cho các bài toán contact-rich
+
+# --- Scientific Computing & Optimization ---
+numpy>=1.24.0
+scipy>=1.10.0
+sympy>=1.12
+meshcat>=0.3.2        # Phục vụ render 3D cho Drake
+
+# --- Jupyter & Visualization ---
+notebook>=7.0.0
+ipywidgets>=8.0.0
+matplotlib>=3.7.0
+lxml>=4.9.0
+pyngrok>=7.0.0        # Nếu cần public port Jupyter

@@ -1,3 +1,0 @@
-
---extra-index-url https://drake-packages.csail.mit.edu/whl/nightly
-underactuated==2026.1.2
